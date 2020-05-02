@@ -1,4 +1,4 @@
-
+require('dotenv').config();
 export default {
   mode: 'spa',
   /*
@@ -58,5 +58,8 @@ export default {
     */
     extend (config, ctx) {
     }
-  }
+  },
+  env: {
+    AMAZON_CONNECT: process.env.AMAZON_CONNECT
+  },
 }

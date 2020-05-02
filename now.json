@@ -1,0 +1,7 @@
+{ 
+  "build": {
+    "env": {
+      "AMAZON_CONNECT": "@amazon_connect"
+    }
+  }
+}
